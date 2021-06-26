@@ -1,0 +1,440 @@
+/*fuentes*/
+/* colores */
+html {
+  font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black; }
+
+main {
+  margin-top: 6.5rem; }
+
+/* titulos */
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Unica One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #b9935a;
+  text-transform: uppercase; }
+
+h2 {
+  text-align: center;
+  font-family: "Unica One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem; }
+
+h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.2rem;
+  text-transform: uppercase; }
+
+h4 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase; }
+
+p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.7rem;
+  line-height: 3rem; }
+
+/* header - navbar */
+header .navbar {
+  z-index: 1;
+  width: 100vw;
+  background-color: #111111;
+  overflow: hidden;
+  position: fixed;
+  top: 0; }
+  header .navbar .nav-img {
+    padding: 0 1rem 0 0; }
+    header .navbar .nav-img img {
+      width: 15rem; }
+  header .navbar a {
+    padding: 1rem 0;
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+/*fuentes*/
+/* colores */
+@media (min-width: 360px) {
+  /* index */
+  /* seccion portada */
+  #portada {
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("/img/portada.jpg");
+    background-position: 50vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh; }
+    #portada .portada__text {
+      top: 40%;
+      text-align: center;
+      position: absolute; }
+      #portada .portada__text p {
+        text-transform: uppercase;
+        color: #ebe9e9; }
+      #portada .portada__text .portada__redes {
+        margin-top: 3rem;
+        font-size: 3rem; }
+        #portada .portada__text .portada__redes i {
+          color: #b9935a;
+          margin: 0 1rem; }
+  /* seccion news */
+  #news {
+    width: 100%;
+    height: auto;
+    background: url(../img/white_bg.jpg); }
+    #news h2 {
+      text-transform: uppercase;
+      padding: 1rem 0 2rem; }
+    #news .news__titulos {
+      font-weight: bold;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid black; }
+    #news .news__fecha {
+      border-bottom: 1px solid black; }
+    #news .news__text {
+      padding: 0.5rem 0; }
+      #news .news__text .news__text--italic {
+        font-style: italic;
+        font-weight: bolder; }
+    #news .news__btn {
+      margin-bottom: 4rem;
+      text-transform: uppercase;
+      font-size: 1.2rem; }
+  /* seccion shows  */
+  #shows {
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("/img/portada.jpg");
+    background-position: 50vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed; }
+    #shows h2 {
+      text-transform: uppercase;
+      padding: 1rem 0 2rem;
+      color: #b9935a; }
+    #shows .shows__eventos {
+      padding: 2rem 0; }
+      #shows .shows__eventos .shows__fecha p {
+        color: #b9935a;
+        font-size: 2rem; }
+      #shows .shows__eventos .shows__info {
+        color: #ebe9e9;
+        font-size: 1.5rem; }
+        #shows .shows__eventos .shows__info .shows__titulo {
+          color: #b9935a;
+          text-transform: uppercase;
+          font-size: 2rem; }
+      #shows .shows__eventos .btn {
+        color: #b9935a;
+        background-color: #181818;
+        font-size: 1.5rem;
+        padding: 0.5rem 3rem; }
+      #shows .shows__eventos .btn:hover {
+        background-color: #4e4e4e;
+        color: #181818; } }
+
+@media (min-width: 768px) {
+  /* seccion portada */
+  #portada .portada__text {
+    left: 10%; } }
+
+@media (min-width: 1024px) {
+  /* seccion portada */
+  #portada .portada__text {
+    left: 15%; } }
+
+/*fuentes*/
+/* colores */
+/* pagina nosotros */
+#bio {
+  padding-top: 3rem;
+  border-bottom: 1px solid #b9935a; }
+  #bio .bio__text {
+    color: #ebe9e9; }
+
+/* seccion de cards de integrantes */
+#nosotros .nosotros__integrante {
+  margin: 3rem 0;
+  align-items: center; }
+  #nosotros .nosotros__integrante .nosotros__boxImg {
+    max-width: 55rem; }
+    #nosotros .nosotros__integrante .nosotros__boxImg img {
+      max-width: 100%; }
+  #nosotros .nosotros__integrante .nosotros__nombre {
+    margin-top: 1rem;
+    color: #b9935a; }
+  #nosotros .nosotros__integrante .nosotros__text {
+    color: #ebe9e9; }
+  #nosotros .nosotros__integrante .nosotros__redes {
+    font-size: 2.5rem; }
+    #nosotros .nosotros__integrante .nosotros__redes a {
+      margin-right: 2rem; }
+    #nosotros .nosotros__integrante .nosotros__redes i {
+      color: #b9935a; }
+    #nosotros .nosotros__integrante .nosotros__redes i:hover {
+      color: #ebe9e9; }
+
+#nosotros .nosotros__integrante--reverse {
+  flex-direction: row-reverse; }
+
+/* estilos pagina musica */
+/* seccion encabezado de pagina musica */
+#musica-encabezado .musica-encabezado__titulo {
+  margin-top: 10rem; }
+
+#musica-encabezado .musica-encabezado__subTitulo {
+  color: #ebe9e9;
+  margin-bottom: 5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #b9935a; }
+
+/* seccion ep */
+#ep {
+  margin-bottom: 3rem; }
+  #ep .ep__titulo {
+    margin-bottom: 1rem;
+    color: #b9935a; }
+  #ep .ep__info {
+    color: #ebe9e9; }
+  #ep .ep__info--color {
+    text-transform: uppercase;
+    color: #b9935a; }
+
+/* seccion videos */
+#video {
+  background-image: url(/img/white_bg.jpg);
+  padding-bottom: 5rem; }
+  #video .video__tituloSeccion {
+    padding: 1rem 0 2rem; }
+  #video .video__containerIframe {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative; }
+    #video .video__containerIframe iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+
+/* seccion proximo lanzamiento */
+#nuevoAlbum {
+  padding-top: 1rem; }
+  #nuevoAlbum .nuevoAlbum__tituloSeccion {
+    color: #b9935a;
+    padding: 1rem 0 2rem; }
+  #nuevoAlbum .nuevoAlbum__titulo {
+    margin-bottom: 1rem;
+    color: #b9935a; }
+  #nuevoAlbum .nuevoAlbum__text {
+    color: #ebe9e9; }
+  #nuevoAlbum .nuevoAlbum__containerImg {
+    max-width: 55rem; }
+    #nuevoAlbum .nuevoAlbum__containerImg img {
+      max-width: 100%; }
+
+/*fuentes*/
+/* colores */
+/* pagina merch */
+/* encabezado de pagina merch */
+#merchEncabezado {
+  padding-top: 3rem; }
+
+/* primera seccion de productos */
+#showcase {
+  background-image: url(/img/white_bg.jpg); }
+  #showcase .showcase__content .showcase__imgBox {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    max-width: 40rem; }
+    #showcase .showcase__content .showcase__imgBox img {
+      width: 100%; }
+    #showcase .showcase__content .showcase__imgBox .showcase__cartIcon {
+      font-size: 5rem;
+      position: absolute;
+      top: 10%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: opacity 0.5s linear; }
+      #showcase .showcase__content .showcase__imgBox .showcase__cartIcon a {
+        color: #b9935a; }
+      #showcase .showcase__content .showcase__imgBox .showcase__cartIcon a:hover {
+        color: #997a4b; }
+  #showcase .showcase__content .showcase__titulo {
+    border-radius: 10px;
+    color: #b9935a;
+    background-color: black; }
+  #showcase .showcase__content .showcase__description {
+    position: relative; }
+    #showcase .showcase__content .showcase__description .detalle {
+      border-top: 1px solid black;
+      opacity: 0;
+      transition: opacity 0.5s linear; }
+      #showcase .showcase__content .showcase__description .detalle p {
+        text-transform: uppercase; }
+  #showcase .showcase__content:hover .showcase__cartIcon {
+    opacity: 1; }
+  #showcase .showcase__content:hover .detalle {
+    opacity: 1; }
+
+/* segunda seccion de productos */
+#productos {
+  padding: 2rem 0;
+  background-color: white; }
+  #productos .row {
+    padding: 2rem;
+    border: 3px double black;
+    margin: 2rem; }
+  #productos .productos__imgBox {
+    max-width: 40rem; }
+    #productos .productos__imgBox img {
+      width: 100%; }
+  #productos .productos__descripcion .productos__titulo {
+    color: black; }
+  #productos .productos__descripcion .productos__precio {
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 1px solid black; }
+  #productos .productos__descripcion .productos__talles p {
+    font-size: 1.6rem;
+    text-transform: uppercase; }
+  #productos .productos__descripcion .productos__talles .productos__size {
+    margin-bottom: 2rem; }
+    #productos .productos__descripcion .productos__talles .productos__size label {
+      margin-right: 1.5rem;
+      font-size: 1.7rem;
+      text-transform: uppercase; }
+    #productos .productos__descripcion .productos__talles .productos__size input {
+      border-radius: 50%;
+      width: 1.5rem;
+      height: 1.5rem;
+      border: 2px solid #999;
+      transition: 0.2s all linear;
+      margin-right: 0.5rem;
+      position: relative; }
+  #productos .productos__descripcion .productos__cantidad label {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    text-transform: uppercase; }
+  #productos .productos__descripcion button {
+    margin-top: 2rem;
+    padding: 0.7rem 3rem; }
+    #productos .productos__descripcion button span {
+      font-size: 1.5rem; }
+
+/*fuentes*/
+/* colores */
+/* footer */
+footer {
+  background-color: #181818;
+  /* navegacion en el footer */
+  /* footer redes sociales */
+  /* footer newsletter */
+  /* footer copyright */ }
+  footer h5 {
+    padding-bottom: 0.5rem;
+    margin: 1.5rem 0;
+    border-bottom: 1px solid #b9935a;
+    color: #b9935a;
+    font: "Unica One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase; }
+  footer .footNav ul {
+    padding: 0;
+    list-style: none; }
+    footer .footNav ul a {
+      color: #ebe9e9;
+      text-decoration: none;
+      font-size: 1.5rem; }
+  footer .redes i {
+    margin-right: 1rem;
+    font-size: 3rem;
+    color: #b9935a; }
+  footer .redes i:hover {
+    color: #ebe9e9;
+    transition: 0.5s; }
+  footer .newsletter .newsletter__inputs {
+    margin-left: 1px; }
+    footer .newsletter .newsletter__inputs input {
+      padding: 1rem;
+      font-size: 1.5rem; }
+    footer .newsletter .newsletter__inputs .newsletter__btn {
+      background-color: #b9935a;
+      color: black;
+      border: 1px solid black; }
+    footer .newsletter .newsletter__inputs .newsletter__btn:hover {
+      background-color: #ebe9e9;
+      transition: 0.5s; }
+  footer .newsletter .newsletter__text {
+    font-style: "Titillium Web", sans-serif;
+    font-size: 1.5rem;
+    color: #ebe9e9;
+    margin-top: 1rem; }
+  footer .line {
+    margin: 1rem 0;
+    color: #b9935a; }
+  footer .copyright {
+    padding: 1rem 0; }
+    footer .copyright .copyright__txt {
+      font-style: "Unica One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 1.5rem;
+      color: #ebe9e9; }
+    footer .copyright .copyright__img {
+      width: 8rem; }
+
+/*fuentes*/
+/* colores */
+/* footer */
+.contacto {
+  /* formulario */
+  /* redes sociales */ }
+  .contacto .contacto__titulo {
+    padding: 3rem 0 1rem; }
+  .contacto .contacto__form {
+    padding: 0.2rem; }
+    .contacto .contacto__form .contacto__input {
+      font-size: 1.5rem; }
+      .contacto .contacto__form .contacto__input .btn {
+        color: #b9935a;
+        background-color: black;
+        font-size: 1.5rem;
+        padding: 0.5rem 3rem; }
+      .contacto .contacto__form .contacto__input .btn:hover {
+        background-color: #ebe9e9;
+        color: #181818; }
+  .contacto .contacto__redes {
+    margin-top: 2rem;
+    font-size: 3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center; }
+    .contacto .contacto__redes a {
+      color: #b9935a; }
+      .contacto .contacto__redes a i {
+        margin: 0 1rem; }
+  .contacto .contacto__band {
+    padding: 2rem 0; }
+    .contacto .contacto__band h2 {
+      color: #b9935a; }
+    .contacto .contacto__band ul {
+      list-style: none; }
+      .contacto .contacto__band ul p {
+        color: #b9935a; }
+      .contacto .contacto__band ul a {
+        font-family: "Titillium Web", sans-serif;
+        text-decoration: none;
+        color: #ebe9e9;
+        font-size: 2rem; }
+      .contacto .contacto__band ul a:hover {
+        color: #b9935a; }

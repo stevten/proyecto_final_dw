@@ -1,0 +1,157 @@
+@import "variables.scss";
+
+/* pagina merch */
+
+/* encabezado de pagina merch */
+#merchEncabezado{
+    padding-top: 3rem;
+}
+
+/* primera seccion de productos */
+
+#showcase{
+    background-image: url(/img/white_bg.jpg);
+
+    .showcase__content{
+
+        .showcase__imgBox{
+            position: relative;
+            text-align: center;
+            display: inline-block;
+            max-width: 40rem;
+
+            img{
+                width: 100%;
+            }
+
+            .showcase__cartIcon{
+                font-size: 5rem;
+                position: absolute;
+                top: 10%;
+                left: 80%;
+                transform: translate(-50%, -50%);
+                opacity: 0;
+                transition: opacity 0.5s linear;
+
+                a{
+                    color: $amarillo;
+                }
+                a:hover{
+                    color: #997a4b;
+                }
+                
+            }
+        }
+
+        .showcase__titulo{
+            border-radius: 10px;
+            color: $amarillo;
+            background-color: black;
+        }
+
+        .showcase__description{
+            position: relative;
+
+            .detalle{
+                border-top: 1px solid black;
+                opacity: 0;
+                transition: opacity 0.5s linear;
+
+                p{
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    .showcase__content:hover{
+
+        .showcase__cartIcon{
+            opacity: 1;
+        }
+
+        .detalle{
+            opacity: 1;
+        }
+    }
+}
+
+/* segunda seccion de productos */
+
+#productos{
+    padding: 2rem 0;
+    background-color: white;
+
+    .row{
+        padding: 2rem;
+        border: 3px double black;
+        margin: 2rem
+    }
+
+    .productos__imgBox{
+        max-width: 40rem;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .productos__descripcion{
+
+        .productos__titulo{
+            color: black;
+        }
+        .productos__precio{
+            font-weight: bold;
+            font-size: 2rem;
+            border-bottom: 1px solid black;
+        }
+
+        .productos__talles{
+            p{
+                
+                font-size: 1.6rem;
+                text-transform: uppercase;
+            }
+
+            .productos__size{
+                margin-bottom: 2rem;
+
+                label{
+                    margin-right: 1.5rem;
+                    
+                    font-size: 1.7rem;
+                    text-transform: uppercase;
+                }
+
+                input{
+                    border-radius: 50%;
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    border: 2px solid #999;
+                    transition: 0.2s all linear;
+                    margin-right: 0.5rem;
+                    position: relative;
+                }
+            }
+        }
+
+        .productos__cantidad{
+
+            label{
+                font-size: 1.5rem;
+                margin-right: 1rem;
+                text-transform: uppercase;
+            }
+        }
+
+        button{
+            margin-top: 2rem; 
+            padding: 0.7rem 3rem;
+            span{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+

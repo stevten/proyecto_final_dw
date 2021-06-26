@@ -1,0 +1,29 @@
+/* header - navbar */
+
+header{
+
+    .navbar{
+        z-index: 1;
+        width: 100vw;
+        background-color: #111111;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+    
+        .nav-img{
+            padding: 0 1rem 0 0;
+            
+            img{
+                width: 15rem;
+            }
+        }
+
+        a{
+            padding: 1rem 0;
+            color: #f2f2f2;
+            font-size: 1.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}

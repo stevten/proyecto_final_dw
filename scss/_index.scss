@@ -1,0 +1,159 @@
+@import "variables.scss";
+
+@media(min-width: 360px){
+
+/* index */
+
+/* seccion portada */
+
+#portada{
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("/img/portada.jpg");
+    background-position: 50vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+
+    .portada__text{
+        top: 40%;
+        text-align: center;
+        position: absolute;
+
+
+        p{
+            text-transform: uppercase;
+            color: $blanco;
+        }
+
+        .portada__redes{
+            margin-top: 3rem;
+            font-size: 3rem;
+
+            i{
+                color: $amarillo;
+                margin: 0 1rem;
+            }
+        }
+    }
+    
+}
+
+/* seccion news */
+
+#news{
+
+    h2{
+        text-transform: uppercase;
+        padding: 1rem 0 2rem;
+    }
+
+    width: 100%;
+    height: auto;
+    background: url(../img/white_bg.jpg);
+
+    .news__titulos{
+        font-weight: bold;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid black;
+    }
+
+    .news__fecha{
+        border-bottom: 1px solid black;
+    }
+
+    .news__text{
+        padding: 0.5rem 0;
+
+        .news__text--italic{
+            font-style: italic;
+            font-weight: bolder;
+        }
+    }
+
+    .news__btn{
+        margin-bottom: 4rem;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+}
+
+/* seccion shows  */
+
+#shows{
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("/img/portada.jpg");
+    background-position: 50vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    
+    h2{
+        text-transform: uppercase;
+        padding: 1rem 0 2rem;
+        color: $amarillo;
+    }
+
+    .shows__eventos{
+        padding: 2rem 0;
+
+        .shows__fecha{
+            p{
+                color: $amarillo;
+                font-size: 2rem;
+            }
+        }
+
+        .shows__info{
+            color: $blanco;
+            font-size: 1.5rem;
+
+            .shows__titulo{
+                color: $amarillo;
+                text-transform: uppercase;
+                font-size: 2rem;
+            }
+        }
+
+        .btn{
+            color: $amarillo;
+            background-color: $negro;
+            font-size: 1.5rem;
+            padding: 0.5rem 3rem;
+        }
+        
+        .btn:hover{
+            background-color: $gris;
+            color: $negro;
+        }
+        
+    }
+}
+
+}
+
+@media(min-width: 768px){
+
+/* seccion portada */
+
+#portada{
+
+    .portada__text{
+        left: 10%;
+    }
+}
+}
+
+@media(min-width: 1024px){
+
+/* seccion portada */
+
+#portada{
+
+    .portada__text{
+        left: 15%;
+    }
+}
+
+}

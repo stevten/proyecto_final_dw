@@ -1,0 +1,89 @@
+/* estilos pagina musica */
+
+/* seccion encabezado de pagina musica */
+
+#musica-encabezado{
+
+    .musica-encabezado__titulo{
+        margin-top: 10rem;
+    }
+
+    .musica-encabezado__subTitulo{
+        color: $blanco;
+        margin-bottom: 5rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $amarillo;
+    }
+}
+
+/* seccion ep */
+
+#ep{
+    margin-bottom: 3rem;
+
+    .ep__titulo{
+        margin-bottom: 1rem;
+        color: $amarillo;
+    }
+
+    .ep__info{
+        color: $blanco;
+    }
+
+    .ep__info--color{
+        text-transform: uppercase;
+        color: $amarillo;
+    }
+}
+
+/* seccion videos */
+
+#video{
+    background-image: url(/img/white_bg.jpg);
+    padding-bottom: 5rem;
+
+    .video__tituloSeccion{
+        padding: 1rem 0 2rem;
+    }
+    .video__containerIframe{
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+        position: relative;
+
+        iframe{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+
+/* seccion proximo lanzamiento */
+
+#nuevoAlbum{
+    padding-top: 1rem;
+
+    .nuevoAlbum__tituloSeccion{
+        color: $amarillo;
+        padding: 1rem 0 2rem;
+    }
+
+    .nuevoAlbum__titulo{
+        margin-bottom: 1rem;
+        color: $amarillo;
+    }
+
+    .nuevoAlbum__text{
+        color: $blanco;
+    }
+
+    .nuevoAlbum__containerImg{
+        max-width: 55rem;
+
+        img{
+            max-width: 100%;
+        }
+    }
+}

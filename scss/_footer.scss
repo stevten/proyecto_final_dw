@@ -1,0 +1,101 @@
+@import "variables.scss";
+
+/* footer */
+
+footer{
+    background-color: $negro;
+
+    h5{
+        padding-bottom: 0.5rem;
+        margin: 1.5rem 0;
+        border-bottom: 1px solid $amarillo;
+        color: $amarillo;
+        font: $font-a;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    /* navegacion en el footer */
+
+    .footNav{
+
+        ul{
+            padding: 0;
+            list-style: none;
+
+            a{
+                color: $blanco;
+                text-decoration: none;
+                font-size: 1.5rem;
+            }
+        } 
+    }
+
+    /* footer redes sociales */
+
+    .redes{
+        i{
+            margin-right: 1rem;
+            font-size: 3rem;
+            color: $amarillo;
+        }
+
+        i:hover{
+            color: $blanco;
+            transition: 0.5s;
+        }
+    }
+
+    /* footer newsletter */
+
+    .newsletter{
+
+        .newsletter__inputs{
+            margin-left: 1px;
+        
+            input{
+                padding: 1rem;
+                font-size: 1.5rem;
+            }
+
+            .newsletter__btn{
+                background-color: $amarillo;
+                color: black;
+                border: 1px solid black;
+            }
+
+            .newsletter__btn:hover{
+                background-color: $blanco;
+                transition: 0.5s;
+            }
+        }
+
+        .newsletter__text{
+            font-style: $font-b;
+            font-size: 1.5rem;
+            color: $blanco;
+            margin-top: 1rem;
+        }
+    }
+
+    .line{
+        margin: 1rem 0;
+        color: $amarillo;
+    }
+
+    /* footer copyright */
+
+    .copyright{
+        padding: 1rem 0;
+
+        .copyright__txt{
+            font-style: $font-a;
+            font-size: 1.5rem;
+            color: $blanco;
+        }
+
+        .copyright__img{
+            width: 8rem;
+        }
+    }
+}

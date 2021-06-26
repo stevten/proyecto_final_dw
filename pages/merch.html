@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--css styles-->
+    <link rel="stylesheet" href="/css/wow.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Unica+One&display=swap" rel="stylesheet">
+    
+    <title>Dozing || Merch</title>
+</head>
+<body>
+    <!-- comienzo menu de navegacion -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark wow fadeInDown animated">
+            <div class="container">
+                <a class="navbar-brand nav-img" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="nosotros.html">nosotros</a>
+                    <a class="nav-link" href="musica.html">musica</a>
+                    <a class="nav-link" href="#">merch</a>
+                    <a class="nav-link" href="contacto.html">contacto</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- fin menu de navegacion -->
+
+    <main>
+        <!--seccion merch-->
+        <h1 id="merchEncabezado">merch</h1>
+
+        <!--primera seccion de productos-->
+        <div id="showcase" class="container-fluid">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-4 showcase__content wow fadeInLeft animated" data-wow-delay="0.2s">
+                        <div class="showcase__imgBox"> 
+                            <img src="/img/pagina merch/producto_tres.jpg" alt="gorro beanie negro">
+                            <div class="showcase__cartIcon">
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="showcase__titulo">Buzo $1200</h3>
+                        </div>
+                        <div class="showcase__description">
+                            <div class="detalle text-center">
+                                <p>buzo friza cuello redondo</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-md-4 showcase__content wow fadeInLeft animated" data-wow-delay="0.4s">
+                        <div class="showcase__imgBox"> 
+                            <img src="/img/pagina merch/producto_uno.jpg" alt="buzo color negro">
+                            <div class="showcase__cartIcon">
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="showcase__titulo">Buzo $1700</h3>
+                        </div>
+                        <div class="showcase__description">
+                            <div class="detalle text-center">
+                                <p>buzo con capucha color negro</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-md-4 showcase__content wow fadeInLeft animated" data-wow-delay="0.6s">
+                        <div class="showcase__imgBox"> 
+                            <img src="/img/pagina merch/productor_cuatro.jpg" alt="gorro beanie negro">
+                            <div class="showcase__cartIcon">
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="showcase__titulo">Gorra $200</h3>
+                        </div>
+                        <div class="showcase__description">
+                            <div class="detalle text-center">
+                                <p>gorra tipo truck negra c/logo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--segunda seccion de productos-->
+        <div id="productos">
+            <div class="container">
+                <div class="row justify-content-center wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="col-12 col-md-6 productos__imgBox">
+                        <img src="/img/pagina merch/remeras_uno.jpg" alt="remeras">
+                    </div>
+                    <div class="col-12 col-md-6 productos__descripcion">
+                        <h3 class="productos__titulo">Remera con logo</h3>
+                        <p>Remera 100% algodon con estampado de logo de la banda.</p>
+                        <p class="productos__precio">$1000</p>
+                        <div class="productos__talles">
+                            <form action="#">
+                                <p>seleccionar talle</p>
+                                <div class="productos__size">
+                                    <input type="radio" id="talleUno" name="talle" value="s">
+                                    <label for="talleUno">s</label>
+                                    <input type="radio" id="talleDos" name="talle" value="m">
+                                    <label for="talleDos">m</label>
+                                    <input type="radio" id="talleTres" name="talle" value="l">
+                                    <label for="talleTres">l</label>
+                                    <input type="radio" id="talleCuatro" name="talle" value="xl">
+                                    <label for="talleCuatro">xl</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="productos__cantidad">
+                            <form action="#">
+                                <label for="qty">cantidad</label>
+                                <select id="qty">
+                                  <option value="uno">1 unidad</option>
+                                  <option value="dos">2 unidades</option>
+                                  <option value="tres">3 unidades</option>
+                                  <option value="cuantro">4 unidades</option>
+                                </select>
+                            </form>
+                        </div>
+                        <button class="productos__btn btn btn-dark">
+                            <span>agregar al carrito</span>
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="row justify-content-center  wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="col-12 col-md-6 productos__imgBox">
+                        <img src="/img/pagina merch/producto_tres.jpg" alt="remeras">
+                    </div>
+                    <div class="col-12 col-md-6 productos__descripcion">
+                        <h3 class="productos__titulo">buzo con logo</h3>
+                        <p>Buzo de friza cuello redondo con estampado de portada de "dozing"</p>
+                        <p class="productos__precio">$1200</p>
+                        <div class="productos__talles">
+                            <form action="#">
+                                <p>seleccionar talle</p>
+                                <div class="productos__size">
+                                    <input type="radio" id="talleUno" name="talle" value="s">
+                                    <label for="talleUno">s</label>
+                                    <input type="radio" id="talleDos" name="talle" value="m">
+                                    <label for="talleDos">m</label>
+                                    <input type="radio" id="talleTres" name="talle" value="l">
+                                    <label for="talleTres">l</label>
+                                    <input type="radio" id="talleCuatro" name="talle" value="xl">
+                                    <label for="talleCuatro">xl</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="productos__cantidad">
+                            <form action="#">
+                                <label for="qty">cantidad</label>
+                                <select id="qty">
+                                  <option value="uno">1 unidad</option>
+                                  <option value="dos">2 unidades</option>
+                                  <option value="tres">3 unidades</option>
+                                  <option value="cuantro">4 unidades</option>
+                                </select>
+                            </form>
+                        </div>
+                        <button class="productos__btn btn btn-dark">
+                            <span>agregar al carrito</span>
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="row justify-content-center wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="col-12 col-md-6 productos__imgBox">
+                        <img src="/img/pagina merch/taza.jpg" alt="remeras">
+                    </div>
+                    <div class="col-12 col-md-6 productos__descripcion">
+                        <h3 class="productos__titulo">Taza con logo</h3>
+                        <p>Taza negra sublimada con logo de la banda </p>
+                        <p class="productos__precio">$400</p>
+                        <div class="productos__cantidad">
+                            <form action="#">
+                                <label for="qty">cantidad</label>
+                                <select id="qty">
+                                  <option value="uno">1 unidad</option>
+                                  <option value="dos">2 unidades</option>
+                                  <option value="tres">3 unidades</option>
+                                  <option value="cuantro">4 unidades</option>
+                                </select>
+                            </form>
+                        </div>
+                        <button class="productos__btn btn btn-dark">
+                            <span>agregar al carrito</span>
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- comienzo de footer-->
+    <footer class="wow fadeInUp animated">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-2 col-lg-2 footNav">
+                    <h5>navegacion</h5>
+                    <ul>
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="/pages/musica.html">Musica</a></li>
+                        <li><a href="/pages/merch.html">Merch</a></li>
+                        <li><a href="/pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 redes">
+                    <h5>seguinos en</h5>
+                    <div>
+                        <a href="https://www.facebook.com/Dozingers"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/dozing.ok/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://open.spotify.com/artist/6pHT2oT4J80PPWez374C3B"><i class="fab fa-spotify"></i></a>
+                        <a href="https://www.youtube.com/channel/UCir_UgkIV1-lQXqchnl8GYg"><i class="fab fa-youtube"></i></a>
+                        <a href="https://dozingmusic.bandcamp.com/releases"><i class="fab fa-bandcamp"></i></a>
+                    </div>
+                </div> 
+                <div class="col-12 col-md-4 col-lg-4 newsletter">
+                    <h5>newletter</h5>
+                    <div class="newsletter__inputs row">
+                        <input type="email" class="col-8" placeholder="Correo electronico">
+                        <input type="submit" class="newsletter__btn col-3">
+                    </div>
+                    <p class="newsletter__text">Registrate para recibir todas las novedades en tu correo.</p>
+                </div>            
+            </div>
+            <hr class="line">
+            <div class="copyright text-center">
+                <p class="copyright__txt">&copy copyright 2021 - 
+                    <a href="#">
+                        <img src="/img/logo.png" alt="imagen de logo" class="copyright__img">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- fin de footer-->
+    <!--script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!--script wow-->
+    <script src="/js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+</body>
+</html>

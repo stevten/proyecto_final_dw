@@ -1,0 +1,83 @@
+@import "variables.scss";
+
+/* footer */
+
+.contacto{
+
+   .contacto__titulo{
+       padding: 3rem 0 1rem;
+   }
+
+    /* formulario */
+
+    .contacto__form{
+        padding: 0.2rem;
+
+        .contacto__input{
+            font-size: 1.5rem;
+
+            .btn{
+                color: $amarillo;
+                background-color: black;
+                font-size: 1.5rem;
+                padding: 0.5rem 3rem;
+            }
+            
+            .btn:hover{
+                background-color: $blanco;
+                color: $negro;
+            }
+        }
+    }
+
+    /* redes sociales */
+    
+    .contacto__redes{
+        margin-top: 2rem;
+        font-size: 3rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+
+        a{
+            color: $amarillo;
+
+            i{
+                margin: 0 1rem;
+            }
+        }
+    }
+
+    .contacto__band{
+        padding: 2rem 0;
+
+        h2{
+            color: $amarillo;
+        }
+
+        ul{
+            list-style: none;
+
+            p{
+                color: $amarillo;
+            }
+
+            a{
+                font-family: $font-b;
+                text-decoration: none;
+                color: $blanco;
+                font-size: 2rem;
+            }
+
+            a:hover{
+                color: $amarillo;
+            }
+        }
+    }
+}
+
+
+
+
+
+
